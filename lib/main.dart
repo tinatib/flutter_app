@@ -34,6 +34,7 @@ class _MyAppState extends State<MyApp> {
                   child: RaisedButton(
                     child: Text('GAMES'),
                     color: Colors.purple.shade300,
+                   hoverColor: Colors.purple.shade50,
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -415,8 +416,9 @@ class MyTeams extends StatelessWidget {
               ),
             ],
           ),
+
           Padding(
-            padding: const EdgeInsets.all(30.0),
+            padding: const EdgeInsets.fromLTRB(2,4,4,4),
             child: Row(
               children: [
                 Column(
@@ -424,7 +426,10 @@ class MyTeams extends StatelessWidget {
                     Text(
                       'Atlanta Hawks(ATL)',
                       style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
+                    SizedBox(
+                      height: 20,
                     ),
                     Row(
                       children: [
@@ -435,20 +440,148 @@ class MyTeams extends StatelessWidget {
                         Text('name: Hawks'),
                       ],
                     ),
-                    Row(
-                      children: [
-                        Text('division: Atlanta'),
-                        SizedBox(
-                          width: 50,
-                        ),
-                        Text('conference: Hawks'),
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Text('division: Atlanta'),
+                          SizedBox(
+                            width: 50,
+                          ),
+                          Text('conference: Hawks'),
+                        ],
+                      ),
                     ),
                   ],
                 ),
               ],
             ),
-          )
+          ),
+
+
+
+          Padding(
+            padding: const EdgeInsets.fromLTRB(2,4,4,4),
+            child: Row(
+              children: [
+                Column(
+                  children: [
+                    Text(
+                      'Boston Celtics(BOS)',
+                      style:
+                      TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Row(
+                      children: [
+                        Text('city: Atlanta'),
+                        SizedBox(
+                          width: 50,
+                        ),
+                        Text('name: Hawks'),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Text('division: Atlanta'),
+                          SizedBox(
+                            width: 50,
+                          ),
+                          Text('conference: Hawks'),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.fromLTRB(2,4,4,4),
+            child: Row(
+              children: [
+                Column(
+                  children: [
+                    Text(
+                      'Brooklyn Nets(BKN)',
+                      style:
+                      TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Row(
+                      children: [
+                        Text('city: Atlanta'),
+                        SizedBox(
+                          width: 50,
+                        ),
+                        Text('name: Hawks'),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Text('division: Atlanta'),
+                          SizedBox(
+                            width: 50,
+                          ),
+                          Text('conference: Hawks'),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+
+          Padding(
+            padding: const EdgeInsets.fromLTRB(2,4,4,4),
+            child: Row(
+              children: [
+                Column(
+                  children: [
+                    Text(
+                      'Charlotte Hornets(CHA)',
+                      style:
+                      TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Row(
+                      children: [
+                        Text('city: Atlanta'),
+                        SizedBox(
+                          width: 50,
+                        ),
+                        Text('name: Hawks'),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Text('division: Atlanta'),
+                          SizedBox(
+                            width: 50,
+                          ),
+                          Text('conference: Hawks'),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
         ],
       )),
     );
