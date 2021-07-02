@@ -140,8 +140,8 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Column(
                     children: [
-                      Text('Oklahoma City Thunder' ,style: TextStyle(fontWeight:FontWeight.bold,),),
-                      Text('OKC'),
+                      Text('Golden State Warriors' ,style: TextStyle(fontWeight:FontWeight.bold,),),
+                      Text('GSW'),
                     ],
                   ),
                 ],
@@ -157,8 +157,8 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
 
                       children: [
-                        Text('Cleveland Cavaliers', style: TextStyle(fontWeight:FontWeight.bold,),),
-                        Text('CLE'),
+                        Text('Toronto Raptors', style: TextStyle(fontWeight:FontWeight.bold,),),
+                        Text('TOR'),
                       ],
                     ),
                   ),
@@ -181,8 +181,8 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Column(
                     children: [
-                      Text('Oklahoma City Thunder' ,style: TextStyle(fontWeight:FontWeight.bold,),),
-                      Text('OKC'),
+                      Text('Portland Trail Blazers' ,style: TextStyle(fontWeight:FontWeight.bold,),),
+                      Text('POR'),
                     ],
                   ),
                 ],
@@ -198,8 +198,8 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
 
                       children: [
-                        Text('Cleveland Cavaliers', style: TextStyle(fontWeight:FontWeight.bold,),),
-                        Text('CLE'),
+                        Text('Dallas Mavericks', style: TextStyle(fontWeight:FontWeight.bold,),),
+                        Text('DAL'),
                       ],
                     ),
                   ),
@@ -222,8 +222,8 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Column(
                     children: [
-                      Text('Oklahoma City Thunder' ,style: TextStyle(fontWeight:FontWeight.bold,),),
-                      Text('OKC'),
+                      Text('Denver Nuggets' ,style: TextStyle(fontWeight:FontWeight.bold,),),
+                      Text('DEN'),
                     ],
                   ),
                 ],
@@ -239,8 +239,8 @@ class _MyAppState extends State<MyApp> {
                     child: Column(
 
                       children: [
-                        Text('Cleveland Cavaliers', style: TextStyle(fontWeight:FontWeight.bold,),),
-                        Text('CLE'),
+                        Text('Memphis Grizzlies ', style: TextStyle(fontWeight:FontWeight.bold,),),
+                        Text('MEM'),
                       ],
                     ),
                   ),
@@ -263,8 +263,8 @@ class _MyAppState extends State<MyApp> {
                   ),
                   Column(
                     children: [
-                      Text('Oklahoma City Thunder' ,style: TextStyle(fontWeight:FontWeight.bold,),),
-                      Text('OKC'),
+                      Text('San Antonio Spurs' ,style: TextStyle(fontWeight:FontWeight.bold,),),
+                      Text('SAS'),
                     ],
                   ),
                 ],
