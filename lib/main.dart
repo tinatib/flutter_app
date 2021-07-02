@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(5, 20, 5, 20),
+              padding: const EdgeInsets.fromLTRB(5, 30, 5, 30),
               child: Row(
                 children: [
                   Padding(
@@ -108,7 +108,7 @@ class _MyAppState extends State<MyApp> {
             ),
 
             Padding(
-              padding: const EdgeInsets.fromLTRB(5, 20, 5, 20),
+              padding: const EdgeInsets.fromLTRB(5, 30, 5, 30),
               child: Row(
                 children: [
                   Padding(
@@ -122,7 +122,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 35,
                   ),
                   Column(
                     children: [
@@ -149,7 +149,7 @@ class _MyAppState extends State<MyApp> {
             ),
 
             Padding(
-              padding: const EdgeInsets.fromLTRB(5, 20, 5, 20),
+              padding: const EdgeInsets.fromLTRB(5, 30, 5, 30),
               child: Row(
                 children: [
                   Padding(
@@ -163,7 +163,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 50,
                   ),
                   Column(
                     children: [
@@ -190,7 +190,7 @@ class _MyAppState extends State<MyApp> {
             ),
 
             Padding(
-              padding: const EdgeInsets.fromLTRB(5, 20, 5, 20),
+              padding: const EdgeInsets.fromLTRB(5, 30, 5, 30),
               child: Row(
                 children: [
                   Padding(
@@ -204,7 +204,7 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 40,
                   ),
                   Column(
                     children: [
@@ -231,7 +231,7 @@ class _MyAppState extends State<MyApp> {
             ),
 
             Padding(
-              padding: const EdgeInsets.fromLTRB(5, 20, 5, 20),
+              padding: const EdgeInsets.fromLTRB(5, 30, 5, 30),
               child: Row(
                 children: [
                   Padding(
@@ -259,7 +259,7 @@ class _MyAppState extends State<MyApp> {
                     ],
                   ),
                   SizedBox(
-                    width: 25,
+                    width: 30,
                   ),
                   Column(
                     children: [
