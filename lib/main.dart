@@ -558,7 +558,7 @@ class MyTeams extends StatelessWidget {
                     ),
                     Row(
                       children: [
-                        Text('city: Atlanta'),
+                        Text('city:Atlanta'),
                         SizedBox(
                           width: 50,
                         ),
