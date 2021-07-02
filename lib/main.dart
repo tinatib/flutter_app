@@ -554,7 +554,7 @@ class MyTeams extends StatelessWidget {
                       TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 21,
                     ),
                     Row(
                       children: [
